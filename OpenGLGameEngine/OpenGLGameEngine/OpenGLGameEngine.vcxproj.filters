@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{2b190c98-9929-4144-ad81-4428cd8ca19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics">
+      <UniqueIdentifier>{37da48c0-7808-472c-90d9-6a9d48a11857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\App">
+      <UniqueIdentifier>{69f4696d-a73d-4b95-85f4-9e9d97a1fead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Maths">
+      <UniqueIdentifier>{adaf632c-f65c-4a02-ac38-fddb8540d872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\utils">
+      <UniqueIdentifier>{86a03e94-6578-472a-b76a-1039e6dc0a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9490ea40-1f6f-479f-932c-1f067e178d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Buffers">
+      <UniqueIdentifier>{6470d589-2a01-40f9-aec4-5795cab4fc85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Examples">
+      <UniqueIdentifier>{7da0c344-f579-4007-ae60-7902ebe96d56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Mat4.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths_func.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="file_utils.h">
+      <Filter>Engine\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Engine\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Engine\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Engine\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffers.h">
+      <Filter>Engine\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemap.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCamera.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Mat4.cpp">
+      <Filter>Engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Engine\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Engine\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Engine\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemap.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCamera.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\BasicLighting.cpp">
+      <Filter>Engine\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\BasicLightingTexture.cpp">
+      <Filter>Engine\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\Skybox.cpp">
+      <Filter>Engine\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\SimpleCollision.cpp">
+      <Filter>Engine\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples\TextureSpecularLighting.cpp">
+      <Filter>Engine\Examples</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\2dtexture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\2dtexture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dcolor.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dcolor.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dcolortexture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dcolortexture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dlightingphong.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dlightingphong.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dlightingphongtexture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dlightingphongtexture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dtexture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\3dtexture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\cubemap.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\cubemap.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\default.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\default.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\healthbar.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\healthbar.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\model.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\model.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\pointlight.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\pointlight.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\skybox.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\skybox.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\speculartexture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\speculartexture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\sprite.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\sprite.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\sunlight.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\sunlight.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\test.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\test.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texturesunlight.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\texturesunlight.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\2dcolor.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\2dcolor.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="testshaderlol.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="testshaderlol.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
